@@ -22,12 +22,12 @@ body {
     background: #0c1e3b;
     color: #fff;
     padding: 10px 0;
-    text-align: center;
 }
 
 .top-header p {
     margin: 0;
     font-size: 0.9em;
+    text-align: left;
 }
 
 /* Header styles */
