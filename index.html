@@ -4,12 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Il tuo titolo qui</title>
+    <style>
+        /* Stili CSS inline per garantire che tutto l'iframe sia al 100% */
+        body, html {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden; /* Per evitare la barra di scorrimento orizzontale */
+        }
+        .container {
+            width: 100%;
+            max-width: 100%;
+            margin: 0 auto; /* Per centrare il contenuto se necessario */
+        }
+        iframe {
+            display: block; /* Assicura che l'iframe sia un blocco per occupare tutta la larghezza disponibile */
+            width: 100%;
+            height: 290px; /* Altezza specificata nel tuo esempio */
+            border: none; /* Rimuove il bordo dell'iframe */
+        }
+    </style>
     <link rel="stylesheet" href="https://gjdev8.github.io/styles/style.css">
     <!-- Aggiungi altri meta tag se necessario -->
 </head>
 <body>
-    <iframe src="https://gjdev8.github.io/header/" width="100%" height="290" frameborder="0" scrolling="no"></iframe>
-    <div class = container>
+    <iframe src="https://gjdev8.github.io/header/" frameborder="0" scrolling="no"></iframe>
+    <div class="container">
         <p>ciao</p>
     </div>
 </body>
