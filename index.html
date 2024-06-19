@@ -3,41 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Esempio di Sito Web</title>
-    <link rel="stylesheet" href="https://dev-gabriel-jones.pantheonsite.io/style.css">
+    <title>Sito Web Comune</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Benvenuti nel Mio Sito Web</h1>
+        <div class="container">
+            <h1>Comune di Esempio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Chi siamo</a></li>
+                    <li><a href="#">Servizi</a></li>
+                    <li><a href="#">Contatti</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
-        <section class="content">
-            <div class="text">
-                <h2>Introduzione</h2>
-                <p>Questo è un esempio di layout dove il testo è posizionato a sinistra e un'immagine è posizionata a destra.</p>
-            </div>
-            <div class="image">
-                <img src="https://via.placeholder.com/300" alt="Esempio Immagine">
+        <section class="hero">
+            <div class="container">
+                <h2>Benvenuti nel nostro comune</h2>
+                <p>Scopri di più sui nostri servizi e iniziative.</p>
             </div>
         </section>
-        <section class="posts">
-            <h2>Post Recenti</h2>
-            <div class="card">
-                <h3>Post 1</h3>
-                <p>Descrizione del post 1. Questo è un esempio di descrizione del post.</p>
+        <section class="services">
+            <div class="container">
+                <h2>Servizi</h2>
+                <div class="service-cards">
+                    <div class="card">
+                        <h3>Servizio 1</h3>
+                        <p>Descrizione del servizio 1.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Servizio 2</h3>
+                        <p>Descrizione del servizio 2.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Servizio 3</h3>
+                        <p>Descrizione del servizio 3.</p>
+                    </div>
+                </div>
             </div>
-            <div class="card">
-                <h3>Post 2</h3>
-                <p>Descrizione del post 2. Questo è un esempio di descrizione del post.</p>
-            </div>
-            <div class="card">
-                <h3>Post 3</h3>
-                <p>Descrizione del post 3. Questo è un esempio di descrizione del post.</p>
+        </section>
+        <section class="contact">
+            <div class="container">
+                <h2>Contatti</h2>
+                <p>Indirizzo, numero di telefono, email, ecc.</p>
             </div>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Il Mio Sito Web</p>
+        <div class="container">
+            <p>&copy; 2024 Comune di Esempio. Tutti i diritti riservati.</p>
+        </div>
     </footer>
 </body>
 </html>
