@@ -1,9 +1,3 @@
-/* Logo styles */
-.top-header .logo {
-    height: 40px; /* Puoi regolare l'altezza secondo necessità */
-    margin-right: 10px;
-    vertical-align: middle;
-}
 /* Reset CSS */
 * {
     margin: 0;
@@ -25,15 +19,26 @@ body {
 
 /* Top Header styles */
 .top-header {
-    background: #000000;
+    background: #0c1e3b;
     color: #fff;
     padding: 10px 0;
+}
+
+.top-header .container {
+    display: flex;
+    align-items: center;
 }
 
 .top-header p {
     margin: 0;
     font-size: 0.9em;
     text-align: left;
+}
+
+.top-header .logo {
+    height: 40px; /* Altezza del logo */
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
 /* Header styles */
