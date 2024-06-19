@@ -17,6 +17,19 @@ body {
     padding: 20px;
 }
 
+/* Top Header styles */
+.top-header {
+    background: #002060;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.top-header p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
 /* Header styles */
 header {
     background: #004080;
