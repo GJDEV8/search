@@ -22,29 +22,13 @@ body {
     background: #0c1e3b;
     color: #fff;
     padding: 10px 0;
-    height: 80px; /* Altezza del sopra header */
-    display: flex;
-    align-items: center;
 }
 
-.top-header .container {
-    display: flex;
-    align-items: center;
-    height: 100%; /* Altezza relativa al sopra header */
-}
-
-.top-header p {
-    margin: 0;
+.top-header a {
+    color: #fff; /* Colore del testo simile a un link */
+    text-decoration: underline; /* Sottolineato per indicare un link */
+    cursor: pointer; /* Cambia il cursore al passaggio del mouse */
     font-size: 0.9em;
-    text-align: left;
-}
-
-.top-header .logo {
-    height: 100%; /* Altezza relativa al sopra header */
-    max-height: 100%;
-    width: auto;
-    margin-right: 10px;
-    vertical-align: middle;
 }
 
 /* Header styles */
