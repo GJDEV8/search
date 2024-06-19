@@ -1,3 +1,9 @@
+/* Logo styles */
+.top-header .logo {
+    height: 40px; /* Puoi regolare l'altezza secondo necessità */
+    margin-right: 10px;
+    vertical-align: middle;
+}
 /* Reset CSS */
 * {
     margin: 0;
